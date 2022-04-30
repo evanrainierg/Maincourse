@@ -1,7 +1,9 @@
 #main {
     color: white;
     padding: 10px;
-    background-image: url("https://images.squarespace-cdn.com/content/v1/5d9b6c602fea313abc55657b/1571408255023-GGILQ48K1CJCHFNOK71A/Martin+Garrix+Wells+Fargo+Center+Dan+Drufovka+Music+Concert+Photography+Live+Nation+The+Fillmore+The+Met-106.jpg");
+    background-image: url("https://tickets.webwideevents.com/assets/webwideevents/bg-dc9b196d0c96164a1e70485499866b85d8c701ff7dd848ab2a9d79c24c823c18.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 #title {
@@ -27,10 +29,16 @@
 
 #tribute-info {
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
+    padding: 20px;
     font-size: 15px;
 }
 
 #tribute-link {
+
+}
+
+#tribute-addinfo {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
 
 }
