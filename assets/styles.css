@@ -1,0 +1,36 @@
+#main {
+    color: white;
+    padding: 10px;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5d9b6c602fea313abc55657b/1571408255023-GGILQ48K1CJCHFNOK71A/Martin+Garrix+Wells+Fargo+Center+Dan+Drufovka+Music+Concert+Photography+Live+Nation+The+Fillmore+The+Met-106.jpg");
+}
+
+#title {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+#img-div {
+    display: flex; 
+}
+
+#image {
+    width: 600px;
+}
+
+#img-caption {
+    font-size: 15px;
+    text-align: center;
+
+}
+
+#tribute-info {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#tribute-link {
+
+}
