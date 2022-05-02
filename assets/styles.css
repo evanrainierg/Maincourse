@@ -1,41 +1,88 @@
 #main {
     color: white;
-    padding: 10px;
-    background-image: url("https://tickets.webwideevents.com/assets/webwideevents/bg-dc9b196d0c96164a1e70485499866b85d8c701ff7dd848ab2a9d79c24c823c18.jpg");
-    background-position: center;
-    background-size: cover;
+    padding: 40px;
+    background-color: #181717;
+    background-image: url("https://gcdnb.pbrd.co/images/9tPboPl0tCBT.jpg?o=1"); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+#toppage {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 700px;
+}
+
+.quotation {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    width: 50%;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.name {   
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    width: 50%;
+    font-size: 15px;
 }
 
 #title {
-    font-size: 80px;
+    font-size: 50px;
+    letter-spacing: 15px;
     text-align: center;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Audiowide';
+}
 
+#subtitle {
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 #img-div {
-    display: flex; 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 5px;
+    width: 100%;
 }
 
-#image {
-    width: 600px;
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
-#img-caption {
+.img-caption {
+    color: black;
     font-size: 15px;
     text-align: center;
-
+    font-family: 'Poppins', sans-serif; 
 }
 
-#tribute-info {
+#divinfo {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
     font-family: 'Poppins', sans-serif;
-    padding: 20px;
+}
+
+.title-info {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+
+.tribute-info {
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
-
 
 .addinfo {
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
-
 }
